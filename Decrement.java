@@ -6,7 +6,7 @@ public class JavaOperators {
     
        int x = 5, y = 3;
       
-      // pre dicrment --x, post decriment x++
+      // pre decrement --x, post decrement x++
 
        System.out.println("X: " + x--); //
 
