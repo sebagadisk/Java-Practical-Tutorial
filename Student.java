@@ -19,17 +19,6 @@ public class Student {
         Scanner input = new Scanner(System.in);
         age = input.nextInt();
 
-        if(age < 18 && age >= 1){
-            System.out.println("Your age must be > 18");
-            System.exit(0);
-        }else if (age > 18 && age < 65){
-            System.out.println("Your age is between 19 N 65");
-        }
-        else{
-            System.out.println("Invalid input");
-            System.exit(0);
-        }
-
         System.out.println("Please enter your mark %");
         System.out.print("=> ");
         Scanner markInput = new Scanner(System.in);
