@@ -12,18 +12,19 @@ public class Student {
         System.out.println("Please enter your full name");
         System.out.print("=> ");
         Scanner nameInput = new Scanner(System.in);
-        fullName = nameInput.nextLine();
+        fullName = nameInput.nextLine(); //Dynamic input
 
         System.out.println("Please enter your age");
         System.out.print("=> ");
         Scanner input = new Scanner(System.in);
-        age = input.nextInt();
+        age = input.nextInt(); //Dynamic input
 
         System.out.println("Please enter your mark %");
         System.out.print("=> ");
         Scanner markInput = new Scanner(System.in);
-        mark = markInput.nextDouble();
+        mark = markInput.nextDouble(); //Dynamic input
 
+        //Display
         System.out.println("--------------------------------------");
         System.out.println("| Full Name: "+ fullName);
         System.out.println("| Age :"+ age );
