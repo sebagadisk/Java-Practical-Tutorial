@@ -14,10 +14,8 @@ public class Age {
 
         if(age >= 18){
             System.out.println("Your age must be >= 18 to watch this movie");
-            System.exit(0);
         }else{
             System.out.println("Invalid input");
-            System.exit(0);
         }
         
     }
