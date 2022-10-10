@@ -30,8 +30,7 @@ public class Student {
         System.out.println("| Age :"+ age );
         System.out.println("| Mark :"+ mark );
         System.out.println("--------------------------------------");
-
-
+        
     }
 
 }
