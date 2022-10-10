@@ -1,3 +1,8 @@
+/*
+    title: Scanner In Java
+    author: Software Engineer Sebagadis Kahsay
+ */
+
 import java.util.Scanner;
 
 public class Student {
